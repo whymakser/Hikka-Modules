@@ -436,7 +436,7 @@ class PMBLMod(loader.Module):
             await self.inline.bot.send_photo(
                 self._tg_id,
                 photo=(
-                    r"https://github.com/hikariatama/assets/raw/master/unit_sigma.png"
+                    r"https://raw.githubusercontent.com/whymakser/pmbl-cfg-makser/refs/heads/main/unit_sigma.png"
                 ),
                 caption=self.strings("hello"),
                 parse_mode="HTML",
